@@ -1,6 +1,14 @@
 .gridItem {
     text-align: center;
     align-items: center;
+    .MuiInput-input {
+        background-color: white
+    }
+}
+
+.gridItem2 {
+    text-align: center;
+    align-items: center;
 }
 
 body,
@@ -11,6 +19,7 @@ html {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    font-family: 'Poppins';
 }
 
 .header {
@@ -38,4 +47,8 @@ html {
 
 .Input:focus {
     color: white;
+}
+
+.MuiInput-input {
+    background-color: white
 }

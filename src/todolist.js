@@ -23,7 +23,7 @@ export default function Todo(){
             <Grid container spacing={1}>
             
             <Grid item xs={3} className="gridItem2"></Grid>
-            <Grid item xs={6} className="gridItem">
+            <Grid item xs={4} className="gridItem2">
             
                 <Input 
                 type="text"
@@ -33,9 +33,10 @@ export default function Todo(){
                 placeholder="Add Task..."
                 autoComplete="off"
                 className="Input"
-                color="primary"
+                color='primary'
                 />
-            
+            </Grid>
+            <Grid item xs={2} className="gridItem">
             
                 <Button
                 className="buuuton"
