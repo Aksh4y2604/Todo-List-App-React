@@ -1,0 +1,41 @@
+.gridItem {
+    text-align: center;
+    align-items: center;
+}
+
+body,
+html {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1a1a1d;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header {
+    color: white;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.ListItemdefault {
+    font-size: large;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+}
+
+.ListItemCompleted {
+    font-size: large;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    text-decoration: line-through
+}
+
+.Input :placeholder-shown {
+    color: white
+}
+
+.Input:focus {
+    color: white;
+}
